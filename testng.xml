@@ -4,12 +4,11 @@
 
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/R.K.Suleimanov/IdeaProjects/TestNGProject">
+
+        <parameter name="db" value="sql"></parameter>
         <classes>
-            <class name="org.example.Test1">
-                <methods>
-                    <include name="test1"/>
-                </methods>
-            </class>
+            <class name="org.example.smoke.Test1"></class>
+            <class name="org.example.smoke.Test2"></class>
         </classes>
     </test>
 </suite>
